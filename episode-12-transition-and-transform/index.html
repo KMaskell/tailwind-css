@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Transition and Transform</title>
+    </head>
+    <body>
+        <button
+            class="shadow-xl bg-blue-500 px-4 py-2 m-10 rounded-lg text-white hover:bg-green-300 transition duration-1000"
+        >
+            Transition duration 1 sec
+        </button>
+        <button
+            class="shadow-xl bg-blue-500 px-4 py-2 m-10 rounded-lg text-white hover:bg-green-300 transition duration-200"
+        >
+            Transition duration 200ms
+        </button>
+
+        <!-- Delay -->
+        <button
+            class="shadow-xl bg-blue-500 px-4 py-2 m-10 rounded-lg text-white hover:bg-green-300 transition duration-200 delay-150"
+        >
+            Transition delay
+        </button>
+
+        <!-- Transform -->
+        <button
+            class="shadow-xl bg-blue-500 px-4 py-2 m-10 rounded-lg text-white hover:bg-green-300 hover:scale-110"
+        >
+            Transform
+        </button>
+    </body>
+</html>

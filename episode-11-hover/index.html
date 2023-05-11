@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Viewports</title>
+    </head>
+    <body class="m-20">
+        <button
+            class="outline outline-2 outline-green-600 px-4 py-2 rounded-lg hover:bg-green-300 hover:text-white hover:rounded-none hover:outline-none"
+        >
+            Hover
+        </button>
+        <div
+            class="p-10 shadow-xl w-1/2 mt-10 hover:bg-green-300 hover:shadow-none"
+        >
+            <h2 class="font-bold hover:text-white">Jojo Rabbit</h2>
+            <p>
+                Lorem ipsum dolor sit amet. Rem odit rerum in commodi facilis
+                sed recusandae quis et repudiandae inventore eum sunt omnis sed
+                doloribus deserunt et unde facere.
+            </p>
+        </div>
+        <!-- Group -->
+        <div
+            class="group p-10 shadow-xl w-1/2 mt-10 hover:bg-green-300 hover:shadow-none"
+        >
+            <h2 class="font-bold">Jojo Rabbit</h2>
+            <p class="group-hover:text-white">
+                Lorem ipsum dolor sit amet. Rem odit rerum in commodi facilis
+                sed recusandae quis et repudiandae inventore eum sunt omnis sed
+                doloribus deserunt et unde facere.
+            </p>
+        </div>
+        <button
+            class="px-4 py-2 bg-green-300 mt-10 text-white rounded-xl cursor-not-allowed"
+        >
+            Unclickable
+        </button>
+        <button
+            class="px-4 py-2 bg-green-300 mt-10 text-white rounded-xl cursor-progress"
+        >
+            Loading...
+        </button>
+        <button
+            class="px-4 py-2 bg-green-300 mt-10 text-white rounded-xl hover:cursor-pointer"
+        >
+            Cursor pointer
+        </button>
+    </body>
+</html>
